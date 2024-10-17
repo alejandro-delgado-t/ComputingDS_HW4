@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "diabetes_prediction_package"
+version = "0.0.1"
+authors = [
+  { name="Alejandro Delgado", email="alejandrodelgado@bse.eu" },
+  { name= "Angad Singh", email="angad.sahota@bse.eu"},
+  { name= "Maria Aleman", email="maria.aleman@bse.eu"}
+
+]
+description = "Library with tools to predict the presence of diabetes mellitus"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/alejandro-delgado-t/ComputingDS_HW4"
+Issues = "https://github.com/alejandro-delgado-t/ComputingDS_HW4"
