@@ -1,6 +1,7 @@
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
 [project]
 name = "diabetes_prediction_package"
 version = "0.0.1"
@@ -8,7 +9,6 @@ authors = [
   { name="Alejandro Delgado", email="alejandrodelgado@bse.eu" },
   { name= "Angad Singh", email="angad.sahota@bse.eu"},
   { name= "Maria Aleman", email="maria.aleman@bse.eu"}
-
 ]
 description = "Library with tools to predict the presence of diabetes mellitus"
 readme = "README.md"
@@ -17,6 +17,48 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "pandas==2.2.3",
+    "numpy==2.1.2",
+    "scikit-learn==1.5.2",
+    "matplotlib-inline==0.1.7",
+    "seaborn>=0.12.0",
+    "xgboost>=1.7.0",
+    "lightgbm>=4.0.0",
+    "joblib==1.4.2",
+    "appnope==0.1.4; sys_platform == 'darwin'",
+    "asttokens==2.4.1",
+    "comm==0.2.2",
+    "debugpy==1.8.7",
+    "decorator==5.1.1",
+    "executing==2.1.0",
+    "ipykernel==6.29.5",
+    "ipython==8.28.0",
+    "jedi==0.19.1",
+    "jupyter_client==8.6.3",
+    "jupyter_core==5.7.2",
+    "nest-asyncio==1.6.0",
+    "parso==0.8.4",
+    "pexpect==4.9.0; sys_platform != 'win32'",
+    "platformdirs==4.3.6",
+    "prompt_toolkit==3.0.48",
+    "psutil==6.0.0",
+    "ptyprocess==0.7.0; sys_platform != 'win32'",
+    "pure_eval==0.2.3",
+    "Pygments==2.18.0",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2024.2",
+    "pyzmq==26.2.0",
+    "scipy==1.14.1",
+    "six==1.16.0",
+    "stack-data==0.6.3",
+    "threadpoolctl==3.5.0",
+    "tornado==6.4.1",
+    "traitlets==5.14.3",
+    "tzdata==2024.2",
+    "wcwidth==0.2.13"
 ]
 
 [project.urls]
